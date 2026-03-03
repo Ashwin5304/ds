@@ -12,3 +12,14 @@ j--;
 arr[j + 1] = key; // Place key in correct position
 }
 }
+public static void main(String[] args) {
+int[] arr = {5, 2, 9, 1, 5, 6};
+
+insertionSort(arr);
+
+System.out.println("Sorted array:");
+for (int num : arr) {
+System.out.print(num + " ");
+}
+}
+}
